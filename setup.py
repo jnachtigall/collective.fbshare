@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2.1.dev0'
+version = '0.2.2.dev0'
 
 tests_require = ['plone.app.testing', 'collective.contentleadimage']
 
@@ -20,6 +20,7 @@ setup(name='collective.fbshare',
         "Framework :: Plone :: 4.0",
         "Framework :: Plone :: 4.1",
         "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
         "Programming Language :: Python",
         ],
       keywords='plone plonegov opengraph facebook',
